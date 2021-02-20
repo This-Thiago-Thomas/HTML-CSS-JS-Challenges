@@ -1,1 +1,251 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, p, span, div, a, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
+
+p {
+    font-weight: 800;
+}
+
+.red-color {
+    color: #D6000D;
+}
+
+.para {
+    font-size: 2.2rem;
+}
+
+.red-button {
+    background-color: #D6000D;
+    color: #ffffff;
+    padding: 7px 50px;
+    font-size: 2.5rem;
+    border: 0;
+    border-radius: 7px;
+}
+
+header {
+    padding: 35px;
+}
+
+
+header .red-button {
+    display: none;
+}
+
+header h2 {
+    text-align: center;
+    font-style: italic;
+    margin: 0;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+
+header a {
+    font-size: 3rem;
+    font-weight: normal;
+    display: inline-block;
+    outline: none;
+    padding: 7px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header a:visited, header a:link, header a:focus {
+    color: #000;
+}
+
+header a:hover {
+    color: gray;
+}
+
+#home {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#home img {
+    width: 380px;
+    height: 380px;
+}
+
+.info {
+    margin-top: 40px;
+}
+
+.info h2, .info p {
+    margin: 0;
+    padding: 0;
+}
+
+.info .red-button {
+    margin-top: 35px;
+}
+
+#services img {
+    width: 380px;
+    height: 380px;
+}
+
+.img-cont {
+    margin-top: 150px;
+    padding: 15px;
+    text-align: center;
+}
+
+.services-list {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.services-list div {
+    text-align: left;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.services-list i {
+    margin-right: 5px;
+    font-size: 2rem;
+}
+
+.services-list p {
+    display: inline-block;
+}
+
+.callbox {
+    padding: 20px;
+    text-align: center;
+}
+
+.callbox p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.callbox input {
+    background-color: #c9c7c7;
+    padding: 10px 65px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 7px;
+}
+
+#comments {
+    margin: 60px 0;
+}
+
+#comments div {
+    background-color: #c9c7c7;
+    padding: 8px;
+    border: 0;
+    border-radius: 7px;
+    margin: 10px 20px;   
+}
+
+#comments i {
+    font-size: 6rem;
+    float: left;
+    margin: 20px;
+}
+
+#comments p {
+    font-size: 1.3rem;
+}
+
+#comments h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#comments span {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+footer {
+    background-color: #000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+footer .codar-slogan {
+    text-align: center;
+}
+
+footer h2, footer h3, footer p {
+    margin: 0;
+    padding: 0;
+}
+
+footer .codar-slogan h2 {
+    font-style: italic;
+}
+
+footer .codar-slogan p {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 3px;
+}
+
+footer .footer-info {
+    width: 50%;
+    margin-top: 28px;
+    margin-left: 10px;
+}
+
+footer .footer-info h3 {
+    font-size: 2.2rem;
+}
+
+footer .footer-info p {
+    font-weight: lighter;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+footer .social ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+}
+
+footer .social li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer .social a {
+    outline: none;
+    text-decoration: none;
+    font-size: 3.2rem;
+}
