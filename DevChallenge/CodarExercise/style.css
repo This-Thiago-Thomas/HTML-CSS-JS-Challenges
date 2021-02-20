@@ -109,7 +109,7 @@ header a:hover {
     margin-top: 35px;
 }
 
-#services img {
+.img-cont img {
     width: 380px;
     height: 380px;
 }
@@ -248,4 +248,106 @@ footer .social a {
     outline: none;
     text-decoration: none;
     font-size: 3.2rem;
+}
+
+@media screen and (min-width: 670px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .red-button {
+        display: inline;
+    }
+
+    header .red-button:link, header .red-button:visited {
+        color: white;
+    }
+
+    header li {
+        margin: 0 8px;
+    }
+
+    #home {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+    }
+
+    #services {
+        margin-top: 70px;
+        flex-flow: row wrap;
+        display: flex;
+    }
+
+    .services-list {
+        margin-left: 150px;
+        flex: 300px;
+        order: -1;
+    }
+
+    .img-cont {
+        flex: 2;
+        margin: 0;
+    }
+
+    .img-cont img {
+        height: 350px;
+        width: 420px;
+    }
+
+    .callbox {
+        margin-top: 50px;
+        flex: 1;
+        text-align: left;
+        margin-left: 80px;
+    }
+
+    .callbox input {
+        height: 15px;
+    } 
+    
+    .callbox button {
+        margin-left: 10px;
+        padding-top: 2px;
+        padding-bottom: 10px;
+    }
+
+
+    #comments {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+    }
+
+    #comments > div {
+        flex: 1 200px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer > div {
+        flex: 1 200px;
+    }
+
+    footer .codar-slogan {
+        margin-top: 28px;
+        margin-right: 5px;
+    }
+
+    footer .codar-slogan h2, footer .codar-slogan p {
+        text-align: left;
+    }
+
+    footer .codar-slogan h2 {
+        font-size: 2.5rem;
+        
+    }
+
+    footer .codar-slogan p {
+        font-size: 1.5rem;
+    }
 }
