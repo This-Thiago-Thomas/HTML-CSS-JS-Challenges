@@ -86,6 +86,10 @@ header a:hover {
     color: gray;
 }
 
+section {
+    padding: 30px;
+}
+
 #home {
     text-align: center;
     margin-top: 25px;
@@ -109,9 +113,13 @@ header a:hover {
     margin-top: 35px;
 }
 
+#services {
+    padding: 0 50px;
+}
+
 .img-cont img {
-    width: 380px;
-    height: 380px;
+    width: 350px;
+    height: 350px;
 }
 
 .img-cont {
@@ -122,26 +130,25 @@ header a:hover {
 
 .services-list {
     margin-top: 20px;
-    padding: 20px;
+    text-align: left;
 }
 
 .services-list div {
-    text-align: left;
-    margin: 0 auto;
     width: 40%;
 }
 
 .services-list i {
+    font-size: 2.5rem;
     margin-right: 5px;
-    font-size: 2rem;
 }
 
 .services-list p {
+    font-size: 1.8rem;
     display: inline-block;
 }
 
 .callbox {
-    padding: 20px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -167,7 +174,7 @@ header a:hover {
     padding: 8px;
     border: 0;
     border-radius: 7px;
-    margin: 10px 20px;   
+    margin: 10px 0;   
 }
 
 #comments i {
@@ -268,6 +275,10 @@ footer .social a {
         margin: 0 8px;
     }
 
+    header a {
+        font-size: 2.5rem;
+    }
+
     #home {
         display: flex;
         justify-content: space-around;
@@ -313,7 +324,6 @@ footer .social a {
         padding-bottom: 10px;
     }
 
-
     #comments {
         display: flex;
         justify-content: space-around;
@@ -322,7 +332,9 @@ footer .social a {
 
     #comments > div {
         flex: 1 200px;
+        margin: 0 10px;
     }
+
 
     footer {
         display: flex;
