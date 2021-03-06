@@ -6,17 +6,12 @@ html {
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 #main {
     text-align: center;
     margin: 150px auto;
 }
 
-h1, p, input {
+h1, p, #dateInput, .submit {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -24,12 +19,12 @@ h1 {
     color: #21EB00;
 }
 
-p, input {
+p, #dateInput {
     color: gray;
     margin-top: -8px;
 }
 
-#date, button {
+#dateInput, .submit {
     box-sizing: border-box;
     width: 30%;
     padding: 10px;
@@ -38,12 +33,36 @@ p, input {
     margin-bottom: 10px;
 }
 
-#date {
+#dateInput {
     background-color: #191A18;
 }
 
-button {
+.submit {
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
     background-color: #21EB00;
-    font-size: 14px;
+    color: black;
+    font-size: 17px;
     font-weight: 800;
+    cursor: pointer;
+}
+
+.submit-contador {
+    width: auto;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#clock {
+    display: inline-block;
+    width: 320px;
+    height: 100px;
+    font-size: 80px;
 }
